@@ -51,10 +51,10 @@ typedef enum {
     if (currentValue < lowerLimit) {                                
         checkResult = TOO_LOW;                                      
     } else if(currentValue > upperLimit) {                          
-        checkResult = TOO_HIGH;                                     \
-    } else {                                                        \
-    }                                                               \
-    checkResult;                                                    \
+        checkResult = TOO_HIGH;                                     
+    } else {                                                        
+    }                                                               
+    checkResult;                                                    
 })
 
 typedef struct {
