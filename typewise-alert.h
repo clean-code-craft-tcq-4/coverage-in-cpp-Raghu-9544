@@ -3,7 +3,6 @@
 #pragma once
 
 #include <stdio.h>
-
 #define LOWLIMIT  0
 #define HIGHLIMIT 1
 
