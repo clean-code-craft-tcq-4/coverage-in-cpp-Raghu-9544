@@ -49,7 +49,7 @@ TEST_CASE("Test checkAndAlert(to email too low)") {
 
     //restore out stream
     std::cout.rdbuf(streambuf_2);
-    REQUIRE(toEmail.str() == "To: a.b@c.com\nHi, temperature is too low\n");
+    REQUIRE(toEmail.str() == "To: a.b@c.com\nHi, the temperature is too low\n");
 }
 
 TEST_CASE("Test checkAndAlert(to controller)") {
